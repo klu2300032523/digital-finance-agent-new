@@ -1,12 +1,65 @@
-# React + Vite
+# Digital Finance Literacy Agent
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A multilingual AI assistant built using React and optionally integrated with IBM Watsonx.ai (Granite model) to help users understand key financial concepts such as UPI, budgeting, loan interest rates, and online scam prevention.
 
-Currently, two official plugins are available:
+This project was developed as part of the *IBM SkillsBuild – Edunet Internship Program 2025, under **Problem Statement #7 – AI Agent for Digital Financial Literacy*.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Project Overview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The Digital Finance Literacy Agent enables users to interact in *English, Telugu, or Hindi* and ask questions related to personal finance. The agent provides informative responses using either mock data (offline mode) or IBM Granite (online AI mode). This system aims to improve financial literacy across diverse user groups in India.
+
+---
+
+## Features
+
+- Multilingual support: English, Telugu, Hindi
+- Common financial questions and guidance:
+  - How to use UPI for transactions
+  - How to avoid online scams
+  - Understanding good interest rates
+  - Personal budgeting
+- Built using React.js (Vite) and styled with CSS
+- Optional integration with IBM Watsonx.ai Granite model
+- Responsive design
+- GitHub-hosted frontend (Vite build)
+
+---
+
+## Sample Questions (per Language)
+
+*English*
+- What is UPI?
+- How to avoid online scams?
+- What is a safe interest rate for loans?
+
+*Telugu*
+- UPI అంటే ఏమిటి?
+- ఆన్‌లైన్ మోసాల నుండి ఎలా తప్పించుకోవాలి?
+
+*Hindi*
+- UPI क्या है?
+- ऑनलाइन धोखाधड़ी से कैसे बचें?
+
+---
+
+## Tech Stack
+
+| Layer      | Technology                  |
+|------------|------------------------------|
+| Frontend   | React.js (Vite)              |
+| Styling    | CSS                          |
+| AI Agent   | IBM Watsonx.ai (Granite)     |
+| Hosting    | GitHub Pages                 |
+| Languages  | English, Telugu, Hindi       |
+
+---
+
+## Installation and Local Setup
+
+```bash
+git clone https://github.com/klu2300033213/digital-finance-agent.git
+cd digital-finance-agent
+npm install
+npm run dev
